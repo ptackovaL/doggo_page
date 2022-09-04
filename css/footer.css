@@ -55,7 +55,6 @@ footer .fa-paw:before{
     footer .container .left{
         order: 1;
         margin-bottom: 0px;
-        
     }
 
     footer .container .right{
@@ -90,6 +89,5 @@ footer .fa-paw:before{
     footer .container .right{
         display: flex;
         flex-direction: row;
-        
     }
 }
