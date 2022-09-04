@@ -1,0 +1,148 @@
+.more-me{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px 90px 0px;
+    background-color: #0C0C0C;
+    color: white;
+}
+
+.more-me h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.more-me span{
+    color: rgb(174 50 23);
+}
+
+.more-me h5{
+    color: white;
+    letter-spacing: 8px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    text-align: center;   
+}
+
+.more-me img{
+    width: 230px;
+    height: 230px;
+    border-radius: 5%;
+    border: 1px solid white;
+}
+
+.container{
+    width: 1300px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.more-me .text{
+    padding-top: 30px;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.more-me .main{
+    padding-top: 20px;
+}
+
+
+@media screen and (min-width: 365px){
+    .more-me .headings{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .more-me{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .more-me .container{
+        justify-content: center;
+    } 
+    .more-me .card{
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 510px){
+    .more-me .container{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 560px){
+    .more-me .container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 725px){
+    .more-me .container{
+        max-width: 680px;
+    }
+}
+@media screen and (min-width: 765px){
+    .more-me .container{
+        max-width: 680px;
+    }
+}
+@media screen and (min-width: 1070px){
+    .more-me .container{
+        max-width: 1050px;
+    }
+}
+@media screen and (min-width: 1240px){
+    .more-me .container .card.toothy{
+        padding: 0 25px 0 0;
+    }
+    .more-me .container .card.stupid{
+        padding: 0 25px 0 0;
+    }
+    .more-me .container .card.afraid{
+        padding: 0 25px 0 0;
+    }
+}
+
+
+
+
+
+/* @media screen and (max-width: 969px){
+    .card-4{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 726px){
+    .card-3{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 501px){
+    .more-me .main .container{
+        display: flex;
+        justify-content: center;
+    }
+    .more-me .main .container .card-2{
+        margin-top: 60px;
+    }
+}*/

@@ -1,0 +1,603 @@
+.personality{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+
+.personality .headings{
+    margin-left: 10%;
+}
+.personality .headings h2{
+    color: white;
+    font-weight: 200;
+    font-size: 65px;
+    margin-bottom: 5px;
+}
+.personality .headings span{
+    color: rgb(174 50 23);
+    font-weight: 100;
+}
+.personality .headings h5{
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+
+.personality .container{
+    color: white;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+    position: relative;
+}
+
+.personality .cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+}
+
+.personality .card img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid white;
+    order: 1;
+    margin-bottom: 20px;
+}
+.personality .container .some-text{
+    width: 245px;
+    text-align: center;
+}
+
+.personality .card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.personality .card:last-child{
+    margin-bottom: 0px;
+}
+.personality .card .some-text{
+    order: 2;
+}
+
+.personality .card h5{
+    color: rgb(174 50 23);
+    font-weight: lighter;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.personality .some-text{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.vertical-line{
+    border-left: 1px solid white;
+    width: 0;
+    height: calc(100% - 18%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 10%;
+    margin-right: auto;
+    top: 5%;
+}
+.personality .circle{
+    background-color: white;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    margin-left: calc(10% - 6px);
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.circles .first-circle{
+    top: 8%;
+}
+.circles .second-circle{
+    top: 33%;
+}
+.circles .third-circle{
+    top: 58%;
+}
+.circles .fourth-circle{
+    top: 83%;
+}
+
+@media screen and (min-width: 620px){
+    .personality .card{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .personality .cuddly img{
+        margin-left: 20px;
+        order: 2;
+    }
+    .personality .stubborn img{
+        margin-right: 20px;
+    }
+    .personality .tireless img{
+        margin-left: 20px;
+        order: 2;
+    }
+    .personality .friendly img{
+        margin-right: 20px;
+    }
+
+    .vertical-line{
+        margin-left: auto;
+    }
+    .personality .circle{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .personality .headings{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .personality .headings h2{
+        font-size: 55px;
+    }
+    .personality .headings h5{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .personality .headings h2{
+        font-size: 48px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .personality{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.headings{
+    margin-left: 10%;
+}
+
+.headings h2{
+    color: white;
+    font-weight: 200;
+    font-size: 65px;
+    margin-bottom: 5px;
+}
+
+.headings span{
+    color: rgb(174 50 23);
+    font-weight: 100;
+}
+
+.headings h5{
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    font-size: 20px;
+    padding-bottom: 100px;
+} */
+
+/* .main-content{
+    color: white;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    max-width: 95%;
+    background-color: #6e1f1f49;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+    position: relative;
+} */
+/* 
+.main-content p{
+    width: 245px;
+    text-align: center;
+}
+
+.main-content h5{
+    color: rgb(174 50 23);
+    font-weight: lighter;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-content img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid white;
+}
+
+.personality .main-content .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+} */
+
+/* .cuddly{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.stubborn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.tireless{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.friendly{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    flex-wrap: wrap; */
+/* } */
+
+/* .some-text{
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.cuddly img{
+    box-shadow: 50px 50px;
+    color: #101010;
+}
+
+.stubborn img{
+    box-shadow: -50px 50px;
+    color: #101010;
+}
+
+.tireless img{
+    box-shadow: 50px 50px;
+    color: #101010;
+}
+
+.friendly img{
+    box-shadow: -50px 50px;
+    color: #101010;
+}
+
+.vertical-line{
+    border-left: 1px solid white;
+    width: 0;
+    height: 1450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+}
+
+.first-circle{
+    background-color: white;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    top: 8%;
+}
+
+.second-circle{
+    background-color: white;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    top: 33%;
+}
+
+.third-circle{
+    background-color: white;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    top: 58%;
+}
+
+.fourth-circle{
+    background-color: white;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    top: 83%;
+}
+
+@media screen and (max-width: 1199px){
+    .headings{
+        margin-left: 10%;
+    }
+    .headings h2{
+        font-size: 55px;
+    }
+    .headings h5{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    smaller shadow, circles ll dissapear
+    .first-circle{
+        display: none;
+    }
+    .second-circle{
+        display: none;
+    }
+    .third-circle{
+        display: none;
+    }
+    .fourth-circle{
+        display: none;
+    }
+
+    .cuddly img{
+        box-shadow: 30px 30px;
+    }
+    .stubborn img{
+        box-shadow: -30px 30px;
+    }
+    .tireless img{
+        box-shadow: 30px 30px;
+    }
+    .friendly img{
+        box-shadow: -30px 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .vertical-line{
+        right: 80%;
+    }
+
+       
+
+ move the verticla line to left 
++ add the circles back, images 
++ text on right, smaller img shadow 
+}
+
+@media screen and (max-width: 500px){
+    .headings h2{
+        font-size: 50px;
+    }
+} */
+
+/* @media screen and (max-width: 450px){
+    
+    .vertical-line{
+        right: 85%;
+    }
+} */
+
+/* .first-circle{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute; */
+        /* left: calc(50% - 7px); */
+    /* border-radius: 50%;
+    margin-top: 140px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .second-circle{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute; */
+        /* left: calc(50% - 7px); */
+    /* border-radius: 50%;
+    margin-top: 580px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .third-circle{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute; */
+        /* left: calc(50% - 7px); */
+    /* border-radius: 50%;
+    margin-top: 1000px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .fourth-circle{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute; */
+        /* left: calc(50% - 7px); */
+    /* border-radius: 50%;
+    margin-top: 1450px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* @media screen and (max-width: 1199px){
+    .headings{
+        margin-left: 10%;
+    }
+    .headings h2{
+        font-size: 55px;
+    }
+    .headings h5{
+        font-size: 17px;
+    }
+
+    
+    .vertical-line{
+        margin-left: 10%;
+        height: 1980px;
+    }
+    .first-circle{
+        margin-left: 10%;
+    }
+    .second-circle{
+        margin-left: 10%;
+    }
+    .third-circle{
+        margin-left: 10%;
+    }
+    .fourth-circle{
+        margin-left: 10%;
+    }
+
+
+    .some-text{
+        order: 2;
+    }
+    .cuddly .img{
+        order: 1;
+    }
+
+    .cuddly{
+        justify-content: end;
+    }
+    .stubborn{
+        justify-content: end;
+    }
+    .tireless{
+        justify-content: end;
+    }
+    .friendly{
+        justify-content: end;
+    }
+    
+    .cuddly img{
+        box-shadow: 30px 30px;
+    }
+    .stubborn img{
+        box-shadow: -30px 30px;
+    }
+    .tireless img{
+        box-shadow: 30px 30px;
+    }
+    .friendly img{
+        box-shadow: -30px 30px;
+    }
+
+    .cuddly h5{
+        margin-top: 40px;
+    }
+    .stubborn h5{
+        margin-top: 40px;
+    }
+    .tireless h5{
+        margin-top: 40px;
+    }
+    .friendly h5{
+        margin-top: 40px;
+    }
+
+
+    .second-circle{
+        margin-top: 740px;
+    }
+    .third-circle{
+        margin-top: 1330px;
+    }
+    .fourth-circle{
+        margin-top: 1940px;
+    }
+} */

@@ -1,0 +1,47 @@
+#home h3{
+    animation-delay: 1.5s;
+}
+
+#home h1{
+    animation-delay: 2.5s;
+}
+#home h1 span, 
+#home h3 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(174 50 23);
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+#home h3 span{
+    animation-delay: 1s;
+}
+#home h1 span{
+    animation-delay: 2s;
+}
+
+
+
+
+/* keyframes */
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
+/* end of keyframes */
