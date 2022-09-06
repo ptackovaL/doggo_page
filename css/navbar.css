@@ -22,7 +22,7 @@
     border: 2px solid;
     border-color: transparent;
     padding: 5px 15px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .navbar ul li a:hover, 
@@ -67,7 +67,7 @@
 
     .navbar{
         justify-content: flex-start;
-        padding: 10px 00px;
+        padding: 10px 0px;
     }
     .navbar ul li{
         padding: 5px 10px;
@@ -85,4 +85,46 @@
         justify-content: center;
     }
 }
+@media screen and (max-width: 400px){
+    .navbar ul li{
+        padding: 5px 0px;
+    }
+}
 
+@media screen and (max-width: 365px){
+    /* .navbar{
+        justify-content: flex-end;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    } */
+    .navbar ul li{
+        padding: 5px 0px;
+    }
+
+    .top-line{
+        width: 87%;
+        height: 1px;
+        top: 97%;
+    }
+
+    /* .navbar i{
+        display: block;
+        align-items: ;
+
+
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 15%;
+        left: 50%;
+        color: white;
+    } */
+}
+
+@media screen and (max-width: 355px){
+    .navbar ul li a{
+        padding: 5px 10px;
+    }
+}
