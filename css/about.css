@@ -213,3 +213,10 @@
         margin-left: 18%;
     }
 }
+@media screen and (max-width: 340px){
+    .about img{
+        width: 245px;
+        height: auto;
+        margin-left: 15%;
+    }
+}
