@@ -177,3 +177,45 @@
         font-size: 48px;
     }
 }
+
+@media screen and (max-width: 440px){
+    .vertical-line{
+        margin-left: 7%;
+    }
+    .personality .circle{
+        margin-left: calc(7% - 6px);
+    }
+}
+
+@media screen and (max-width: 395px){
+    .personality .headings h2{
+        font-size: 45px;
+        margin-left: 10%;
+    }
+    .personality .headings h5{
+        font-size: 15px;
+        padding-bottom: 65px;
+    }
+
+    .personality{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 385px){
+    .vertical-line{
+        margin-left: 5%;
+    }
+    .personality .circle{
+        margin-left: calc(5% - 6px);
+    }
+}
+@media screen and (max-width: 345px){
+    .vertical-line{
+        margin-left: 3%;
+    }
+    .personality .circle{
+        width: 10px;
+        height: 10px;
+        margin-left: calc(3% - 5px);
+    }
+}
