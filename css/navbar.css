@@ -92,13 +92,6 @@
 }
 
 @media screen and (max-width: 365px){
-    /* .navbar{
-        justify-content: flex-end;
-    }
-    .navbar ul{
-        display: flex;
-        flex-direction: column;
-    } */
     .navbar ul li{
         padding: 5px 0px;
     }
@@ -108,19 +101,6 @@
         height: 1px;
         top: 97%;
     }
-
-    /* .navbar i{
-        display: block;
-        align-items: ;
-
-
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        top: 15%;
-        left: 50%;
-        color: white;
-    } */
 }
 
 @media screen and (max-width: 355px){
