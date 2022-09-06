@@ -127,3 +127,24 @@ input{
         min-width: 300px;
     }
 }
+
+@media screen and (max-width: 340px){
+    .input1{
+        width: 280px;
+        min-width: 280px;
+    }
+    #input2{
+        width: 280px;
+        min-width: 280px;
+    }
+}
+@media screen and (max-width: 330px){
+    .input1{
+        width: 260px;
+        min-width: 260px;
+    }
+    #input2{
+        width: 260px;
+        min-width: 260px;
+    }
+}
