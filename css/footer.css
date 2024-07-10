@@ -4,6 +4,8 @@ footer{
     background-color: #0C0C0C;
     color: white;
     padding: 20px;
+    max-height: 15vh;
+    min-height: 10vh;
 }
 
 footer .left a{
@@ -59,6 +61,7 @@ footer .fa-paw:before{
 
     footer .container .right{
         order: 3;
+        /* display: none; */
     }
 
     footer{
